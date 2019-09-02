@@ -1,9 +1,8 @@
 package com.njx.spring.source.analysis.dao;
 
-public class IndexDao implements Dao {
-
-    public void query(Integer args) {
+public class UserDaoImpl implements UserDao {
+    @Override
+    public void query() {
         System.out.println("query");
     }
-
 }
